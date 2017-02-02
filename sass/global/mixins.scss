@@ -1,0 +1,31 @@
+@mixin container() {
+	width: 320px;
+	margin: 0 auto;
+
+	  @media #{$desktop-widths} {
+    width: 1040px;
+	  }
+}
+
+@mixin side-padding {
+	padding-left: 15px;
+	padding-right: 15px;
+
+		@media #{$desktop-widths}
+		 {
+			padding-left: 50px;
+		 	padding-right: 50px;
+	  }
+}
+
+
+@mixin side-margin {
+	margin-left: 15px;
+	margin-right: 15px;
+
+		@media #{$desktop-widths}
+		 {
+			margin-left: 50px;
+		 	margin-right: 50px;
+	  }
+}
