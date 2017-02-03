@@ -11,9 +11,14 @@
     ul {
       margin: 0;
       padding: 0;
-      display: flex;
+      display: none;
       flex-direction: column;
-      padding-top: 7px;
+      padding-top: 40px;
+      padding-left: 50px;
+      padding-bottom: 15px;
+    }
+    .main-nav__close--show {
+      display: flex;
     }
     li {
       margin: 8px;
@@ -34,7 +39,7 @@
 .main-nav__open {
   position: absolute;
   right: 20%;
-  top: 10px;
+  top: 13px;
 }
 
 .page-header__wrapper {
@@ -68,6 +73,9 @@
       font-weight: bold;
       margin-bottom: 10px;
     }
+    .page-header__phone:hover {
+      color: $gray;
+    }
     .page-header__social {
       margin: 0 auto;
       font-size: 0;
@@ -93,6 +101,7 @@
 @media #{$desktop-widths} {
   .main-nav__wrapper {
     ul {
+      display: flex;
       flex-direction: row;
       justify-content: center;
     }
