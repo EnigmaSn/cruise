@@ -127,11 +127,11 @@ body {
 .tour-search {
   min-height: 450px;
   background-image: url("../img/fon.jpg");
-  background-size: cover; }
+  background-size: cover;
+  padding-top: 10px; }
   .tour-search h2 {
     color: white;
     text-transform: uppercase;
     font-size: 45px;
     font-weight: 300;
-    text-align: center;
-    padding-top: 40px; }
+    text-align: center; }
