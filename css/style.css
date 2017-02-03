@@ -68,6 +68,9 @@ body {
     margin: 0 auto; }
   .page-header__wrapper div:last-child {
     margin: 0 auto; }
+  .page-header__wrapper .page-header__logo img {
+    margin-top: 5px;
+    margin-left: 25px; }
   .page-header__wrapper .page-header__contact {
     display: flex;
     flex-direction: column;

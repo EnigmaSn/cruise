@@ -54,6 +54,12 @@
       margin: 0 auto;
       // margin-top: 30px;
     }
+    .page-header__logo {
+      img {
+        margin-top: 5px;
+        margin-left: 25px;
+      }
+    }
     .page-header__contact {
       display: flex;
       flex-direction: column;
