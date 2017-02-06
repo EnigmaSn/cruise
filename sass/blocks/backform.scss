@@ -1,0 +1,67 @@
+.backform {
+  width: 390px;
+  margin: auto;
+  position: relative;
+
+  h2 {
+    background-color: $blue;
+    color: $white;
+    margin: 0;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+  }
+  form {
+    background-color: $white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    label {
+      display: block;
+      font-size: 13px;
+      line-height: 13px;
+      padding-bottom: 10px;
+    }
+    input {
+      height: 40px;
+      margin-bottom: 20px;
+      outline-color: $orange;
+
+      padding: 0 10px;
+      min-width: 280px;
+    }
+    button {
+      display: block;
+      min-width: 210px;
+      max-width: 210px;
+      border-radius: 50px;
+      background-color: $orange;
+      border: 1px solid $white;
+      cursor: pointer;
+      color: $white;
+      padding: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 13px;
+      line-height: 21px;
+      margin-top: 10px;
+      // margin-bottom: 40px;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out 0s;
+    }
+    button:hover {
+      background-color: $blue;
+      transition: all 0.2s ease-in-out 0s;
+    }
+  }
+}
+
+

@@ -95,17 +95,6 @@
       padding-bottom: 25px;
 
     }
-    .page-header__callback-btn {
-      padding: 10px 30px;
-      background-color: $orange;
-      color: $white;
-      border-radius: 50px;
-      text-decoration: none;
-    }
-    .page-header__callback-btn:hover {
-      background-color: $blue;
-    }
-
 }
 
 @media #{$desktop-widths} {
@@ -119,18 +108,18 @@
   }
   .page-header__wrapper {
     flex-direction: row;
-  }
-  .page-header__logo {
-    img {
-      margin-top: 20px;
-      margin-left: 25px;
+    .page-header__logo {
+      img {
+        margin-top: 20px;
+        margin-left: 25px;
+      }
     }
-  }
-  .page-header__contact {
-    padding-top: 20px;
-  }
-  .page-header__callback {
-    padding-top: 60px;
+    .page-header__contact {
+      padding-top: 20px;
+    }
+    .page-header__callback {
+      padding-top: 60px;
+    }
   }
   .main-nav__open {
     display: none;

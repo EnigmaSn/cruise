@@ -29,3 +29,15 @@
 		 	margin-right: 50px;
 	  }
 }
+
+@mixin button-orange {
+	padding: 10px 30px;
+	background-color: $orange;
+	color: $white;
+	border-radius: 50px;
+	text-decoration: none;
+
+	&:hover {
+		background-color: $blue;
+	}
+}
