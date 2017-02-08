@@ -1,0 +1,136 @@
+.advantages {
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  h2 {
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: $blue;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: -25px;
+    padding-top: 35px;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 30px;
+  }
+  ul:after {
+    content: "";
+    display:block;
+    height: 1010px;
+    width: 1px;
+    background-color: #e8e8e8;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+  }
+  li {
+    list-style: none;
+    max-width: 130px;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 18px;
+    position: relative;
+  }
+  li:nth-child(2n) {
+    padding-left: 20px;
+  }
+
+  .advantages__item-line:after {
+    content: "";
+    display:block;
+    height: 1px;
+    width: 290px;
+    background-color: #e8e8e8;
+    position: absolute;
+    left: -12%;
+    bottom: -20px;
+    box-sizing: border-box;
+    @include side-margin;
+  }
+}
+.advantages__wrapper {
+  @include container;
+  background-color: $white;
+}
+
+@media #{$desktop-widths} {
+  .advantages__wrapper {
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    h2 {
+      font-size: 24px;
+      padding-top: 35px;
+      padding-bottom: 25px;
+      padding-left: 15px;
+    }
+    ul {
+      padding-left: 0px;
+      margin-left: -13px;
+      padding-bottom: 15px;
+    }
+    ul:after {
+      content: "";
+      display:block;
+      height: 1px;
+      width: 950px;
+      background-color: #e8e8e8;
+      position: absolute;
+      left: 45px;
+      top: 53%;
+    }
+    li {
+      max-width: 180px;
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-bottom: 0px;
+    }
+    .advantages__item-line:after {
+      display: none;
+    }
+
+    .advantages__item-second-line:after {
+      content: "";
+      display: block;
+      height: 400px;
+      width: 1px;
+      background-color: #e8e8e8;
+      position: absolute;
+      left: 185px;
+      bottom: 0px;
+      box-sizing: border-box;
+    }
+    .advantages__item-fird-line:after {
+      content: "";
+      display: block;
+      height: 400px;
+      width: 1px;
+      background-color: #e8e8e8;
+      position: absolute;
+      left: 235px;
+      bottom: 0px;
+      box-sizing: border-box;
+    }
+    .advantages__item-fourth-line:after {
+      content: "";
+      display: block;
+      height: 400px;
+      width: 1px;
+      background-color: #e8e8e8;
+      position: absolute;
+      left: 235px;
+      bottom: 0px;
+      box-sizing: border-box;
+    }
+
+  }
+
+}
