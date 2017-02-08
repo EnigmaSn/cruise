@@ -36,8 +36,10 @@
 	color: $white;
 	border-radius: 50px;
 	text-decoration: none;
+	transition: all 0.2s ease-in-out 0s;
 
 	&:hover {
 		background-color: $blue;
+		transition: all 0.2s ease-in-out 0s;
 	}
 }
