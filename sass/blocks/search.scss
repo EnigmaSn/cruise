@@ -1,0 +1,21 @@
+.search {
+  background: $lightgray;
+  min-height: 42vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+   h1 {
+     font-size: 24px;
+     line-height: 26px;
+     text-transform: uppercase;
+     color: $blue;
+     margin: 0;
+     margin-left: 15px;
+     margin-bottom: -25px;
+     //padding-top: 15px;
+     text-align: center;
+   }
+}
+
+.search__wrapper {
+  @include container;
+}

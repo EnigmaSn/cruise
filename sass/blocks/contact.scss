@@ -1,0 +1,57 @@
+.contact {
+  background-color: $lightgray;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  h2 {
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: $blue;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  &__main {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      a {
+        margin: 0 auto;
+        color: black;
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-bottom: 10px;
+        transition: all 0.2s ease-in-out 0s;
+      }
+    a:hover {
+      color: $blue;
+      transition: all 0.2s ease-in-out 0s;
+    }
+  }
+  &__schedule {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  &__how-map {
+    display: flex;
+    flex-direction: row;
+  }
+  &__how {
+    width: 50%;
+    padding-right: 30px;
+  }
+  &__map {
+    width: 50%;
+  }
+}
+.contact__wrapper {
+  @include container;
+}

@@ -1,0 +1,56 @@
+.about-us {
+  background-color: $lightgray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  h1 {
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: $blue;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 21px;
+  }
+  &__staff {
+    h2 {
+      font-size: 24px;
+      line-height: 26px;
+      text-transform: uppercase;
+      color: $blue;
+      margin: 0;
+      margin-left: 15px;
+      margin-bottom: 20px;
+      padding-top: 15px;
+      text-align: center;
+    }
+  }
+  &__staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__worker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid $blue;
+    margin: 20px;
+      span {
+        color: $gray;
+        text-align: center;
+        padding: 5px;
+      }
+      span:last-child {
+        color: $blue;
+        font-size: 20px;
+      }
+  }
+}
+.about-us__wrapper {
+  @include container;
+}

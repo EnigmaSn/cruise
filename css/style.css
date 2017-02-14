@@ -1,6 +1,5 @@
 body {
   font-family: "Arial", "Serif";
-  color: #000000;
   width: 100%;
   margin: 0;
   color: #2d2d2d;
@@ -51,6 +50,11 @@ body {
   .main-nav__wrapper a:hover {
     color: #fb9f18;
     transition: all 0.2s ease-in-out 0s; }
+  .main-nav__wrapper .current {
+    color: #fb9f18;
+    pointer-events: none; }
+  .main-nav__wrapper .current:hover {
+    cursor: default; }
 
 .main-nav__open {
   position: absolute;
@@ -422,3 +426,127 @@ body {
     .backform form button:hover {
       background-color: #005ab0;
       transition: all 0.2s ease-in-out 0s; }
+
+.search {
+  background: #efefef;
+  min-height: 42vh;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .search h1 {
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #005ab0;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: -25px;
+    text-align: center; }
+
+.search__wrapper {
+  width: 320px;
+  margin: 0 auto; }
+  @media (min-width: 1040px) {
+    .search__wrapper {
+      width: 1040px; } }
+
+.about-us {
+  background-color: #efefef;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .about-us h1 {
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #005ab0;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .about-us h2 {
+    font-size: 21px; }
+  .about-us__staff h2 {
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #005ab0;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    text-align: center; }
+  .about-us__staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .about-us__worker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #005ab0;
+    margin: 20px; }
+    .about-us__worker span {
+      color: #888888;
+      text-align: center;
+      padding: 5px; }
+    .about-us__worker span:last-child {
+      color: #005ab0;
+      font-size: 20px; }
+
+.about-us__wrapper {
+  width: 320px;
+  margin: 0 auto; }
+  @media (min-width: 1040px) {
+    .about-us__wrapper {
+      width: 1040px; } }
+
+.contact {
+  background-color: #efefef;
+  padding-top: 10px;
+  padding-bottom: 30px; }
+  .contact h2 {
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #005ab0;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center; }
+  .contact__main {
+    display: flex;
+    justify-content: space-between; }
+  .contact__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contact__phone a {
+      margin: 0 auto;
+      color: black;
+      font-size: 24px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-bottom: 10px;
+      transition: all 0.2s ease-in-out 0s; }
+    .contact__phone a:hover {
+      color: #005ab0;
+      transition: all 0.2s ease-in-out 0s; }
+  .contact__schedule {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px; }
+  .contact__how-map {
+    display: flex;
+    flex-direction: row; }
+  .contact__how {
+    width: 50%;
+    padding-right: 30px; }
+  .contact__map {
+    width: 50%; }
+
+.contact__wrapper {
+  width: 320px;
+  margin: 0 auto; }
+  @media (min-width: 1040px) {
+    .contact__wrapper {
+      width: 1040px; } }

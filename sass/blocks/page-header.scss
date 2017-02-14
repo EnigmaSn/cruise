@@ -37,6 +37,14 @@
       color: $orange;
       transition: all 0.2s ease-in-out 0s;
     }
+    .current {
+      color: $orange;
+      pointer-events: none;
+    }
+    .current:hover {
+      //color: $white;
+      cursor: default;
+    }
 }
 .main-nav__open {
   position: absolute;
