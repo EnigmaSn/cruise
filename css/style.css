@@ -505,7 +505,7 @@ body {
       color: #005ab0;
       font-size: 20px; }
   .about-us__worker:hover img {
-    opacity: 0.3; }
+    opacity: 0.1; }
   .about-us__worker:hover div {
     display: block; }
 
