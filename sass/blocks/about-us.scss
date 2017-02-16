@@ -40,6 +40,22 @@
     align-items: center;
     border: 1px solid $blue;
     margin: 20px;
+    position: relative;
+
+      div {
+        display: none;
+        width: 235px;
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        color: $blue;
+        font-weight: 900;
+        line-height: 1.5;
+          ul, li {
+            margin: 0;
+            padding: 0;
+          }
+      }
       span {
         color: $gray;
         text-align: center;
@@ -49,6 +65,14 @@
         color: $blue;
         font-size: 20px;
       }
+  }
+  &__worker:hover {
+    img {
+      opacity: 0.3;
+    }
+    div {
+      display: block;
+    }
   }
 }
 .about-us__wrapper {
