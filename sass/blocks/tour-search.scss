@@ -13,4 +13,18 @@
       font-weight: 300;
       text-align: center;
     }
+    .big {
+      display: none;
+    }
+}
+
+@media #{$desktop-widths} {
+  .tour-search  {
+    .big {
+      display: block;
+    }
+    .small {
+      display: none;
+    }
+  }
 }

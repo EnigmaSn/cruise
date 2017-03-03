@@ -18,7 +18,7 @@
       <ul class="main-nav__close">
         <li><a href="index.html">Главная</a></li>
         <li><a href="tour-search.html">Подбор тура</a></li>
-        <li><a href="#">Горящие туры</a>
+        <li><a href="hot-tours.html">Горящие туры</a>
           <ul>
             <li><a href="#">Авиабилеты</a></li>
             <li><a href="#">Визы</a></li>
@@ -59,7 +59,9 @@
         </div>
       </div>
       <div class="page-header__callback callback">
-        <a href="#" class="page-header__callback-btn callback-btn">Обратный звонок</a>
+        <div class="mango-callback" data-settings='{"type":"", "id": "MTAwMDQ2NDM=","autoDial" : "0", "lang" : "ru-ru", "host":"widgets.mango-office.ru/", "errorMessage": "В данный момент наблюдаются технические проблемы и совершение звонка невозможно"}'>
+          <button class="button-widget-open" id="mango-widget-btn" style=" border-radius: 24px;   background: #fb9f18; width: 175px;height: 40px;white-space: nowrap;border: none;font-family: 'SegoeUISemibold';color: #fff;font-size: 16px;cursor: pointer;">Обратный звонок</button>
+        </div>
       </div>
     </div>
   </div>
@@ -105,6 +107,7 @@
         <div>
           <!-- VK Widget -->
           <div id="vk_groups"></div>
+          <div class="fb-page" data-href="https://www.facebook.com/cruisenn/" data-tabs="timeline" data-width="320" data-height="239" data-small-header="true" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cruisenn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cruisenn/">Агентство путешествий &quot;Круиз Тур&quot;</a></blockquote></div>
         </div>
       </div>
     </div>
@@ -137,12 +140,22 @@
         </div>
       </div>
       <div class="page-footer__callback callback">
-        <a href="#" class="page-footer__callback-btn callback-btn">Обратный звонок</a>
+        <div class="mango-callback" data-settings='{"type":"", "id": "MTAwMDQ2NDM=","autoDial" : "0", "lang" : "ru-ru", "host":"widgets.mango-office.ru/", "errorMessage": "В данный момент наблюдаются технические проблемы и совершение звонка невозможно"}'>
+          <button class="button-widget-open" id="mango-widget-btn" style=" border-radius: 24px;   background: #fb9f18; width: 175px;height: 40px;white-space: nowrap;border: none;font-family: 'SegoeUISemibold';color: #fff;font-size: 16px;cursor: pointer;">Обратный звонок</button>
+        </div>
       </div>
     </div>
   </section>
 </footer>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8&appId=512170815600744";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script src="js/main.js"></script>
 <script type="text/javascript">
   VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1, width: "220"}, 53640350);

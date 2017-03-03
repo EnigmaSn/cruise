@@ -200,6 +200,14 @@ body {
     font-size: 35px;
     font-weight: 300;
     text-align: center; }
+  .tour-search .big {
+    display: none; }
+
+@media (min-width: 1040px) {
+  .tour-search .big {
+    display: block; }
+  .tour-search .small {
+    display: none; } }
 
 .hot {
   background-color: #efefef;
@@ -217,25 +225,25 @@ body {
     text-align: center; }
   .hot a {
     padding: 10px 30px;
-    background-color: #fb9f18;
+    background: #fb9f18;
     color: #ffffff;
     border-radius: 50px;
     text-decoration: none;
     transition: all 0.2s ease-in-out 0s;
     margin: 0 auto; }
     .hot a:hover {
-      background-color: #005ab0;
+      background: #005ab0;
       transition: all 0.2s ease-in-out 0s; }
 
 .callback-btn {
   padding: 10px 30px;
-  background-color: #fb9f18;
+  background: #fb9f18;
   color: #ffffff;
   border-radius: 50px;
   text-decoration: none;
   transition: all 0.2s ease-in-out 0s; }
   .callback-btn:hover {
-    background-color: #005ab0;
+    background: #005ab0;
     transition: all 0.2s ease-in-out 0s; }
 
 .advantages {
@@ -440,7 +448,7 @@ body {
     color: #005ab0;
     margin: 0;
     margin-left: 15px;
-    margin-bottom: -25px;
+    margin-bottom: 25px;
     text-align: center; }
 
 .search__wrapper {
@@ -490,11 +498,11 @@ body {
       display: none;
       width: 235px;
       position: absolute;
-      top: 50px;
+      top: 10px;
       left: 40px;
       color: #005ab0;
       font-weight: 900;
-      line-height: 1.5; }
+      line-height: 1.2; }
       .about-us__worker div ul, .about-us__worker div li {
         margin: 0;
         padding: 0; }
@@ -505,6 +513,15 @@ body {
     .about-us__worker span:last-child {
       color: #005ab0;
       font-size: 20px; }
+  .about-us__coder div {
+    top: 50px;
+    left: 60px;
+    line-height: 2; }
+  .about-us__coder ul {
+    list-style: none; }
+  .about-us__coder a {
+    color: black;
+    text-decoration: none; }
   .about-us__worker:hover img {
     opacity: 0.3;
     -webkit-filter: blur(5px); }
@@ -562,6 +579,9 @@ body {
     padding-right: 30px; }
   .contact__map {
     width: 50%; }
+  .contact__soc div {
+    display: flex;
+    justify-content: space-around; }
 
 .contact__wrapper {
   width: 320px;

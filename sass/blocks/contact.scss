@@ -51,6 +51,12 @@
   &__map {
     width: 50%;
   }
+  &__soc {
+    div {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
 }
 .contact__wrapper {
   @include container;

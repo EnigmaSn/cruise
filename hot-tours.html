@@ -3,9 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">  <title>Подбор тура</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Круиз Тур</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--турвизоровский поисковик-->
+  <style>
+    .TVMainForm, .TVOrderHotelBlock {
+      background-color:transparent;
+      background-image:none;
+      color: #444444;
+      text-shadow: 1px 1px 0 #F1F1F1;
+    }
+    .TVFilterForm{
+      background-color:transparent;
+      background-image:none;
+    }
+  </style>
 </head>
 <body>
   <header class="page-header">
@@ -15,9 +29,9 @@
           <img src="img/menu.png" width="22" alt="Меню">
         </div>
         <ul class="main-nav__close">
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="#" class="current">Подбор тура</a></li>
-          <li><a href="hot-tours.html">Горящие туры</a>
+          <li><a href="index.html" class="current">Главная</a></li>
+          <li><a href="tour-search.html">Подбор тура</a></li>
+          <li><a href="#">Горящие туры</a>
             <ul>
               <li><a href="#">Авиабилеты</a></li>
               <li><a href="#">Визы</a></li>
@@ -65,15 +79,15 @@
       </div>
     </div>
   </header>
+
   <main>
-    <section class="search">
-      <div class="search__wrapper">
-        <h1>Подбор тура</h1>
-        <div class="tv-search-form tv-moduleid-173492"></div>
-      </div>
-    </section>
+    <div class="tv-hot-tours tv-moduleid-942286"></div>
   </main>
+
   <footer class="page-footer">
+    <section class="page-footer__map">
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=IkwCOnZ5Tb6iE10GrLizpb3QSy6993X8&amp;width=100%25&amp;height=250&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+    </section>
     <section class="page-footer__info">
       <div class="page-footer__wrapper">
         <div class="page-footer__logo">
@@ -107,7 +121,10 @@
     </section>
   </footer>
 
-  <script src="js/main.js"></script>
-  <script type="text/javascript" src="//tourvisor.ru/module/init.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="//tourvisor.ru/module/init.js"></script>
+</body>
+</html>
+
 </body>
 </html>
