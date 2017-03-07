@@ -235,6 +235,23 @@ body {
     .hot a:hover {
       background: #005ab0;
       transition: all 0.2s ease-in-out 0s; }
+  .hot .big {
+    display: none; }
+
+@media (min-width: 1040px) {
+  .hot .big {
+    display: block; }
+  .hot .small {
+    display: none; } }
+
+.hot-tours .big {
+  display: none; }
+
+@media (min-width: 1040px) {
+  .hot-tours .big {
+    display: block; }
+  .hot-tours .small {
+    display: none; } }
 
 .callback-btn {
   padding: 10px 30px;
@@ -451,6 +468,8 @@ body {
     margin-left: 15px;
     margin-bottom: 25px;
     text-align: center; }
+  .search .big {
+    display: none; }
 
 .search__wrapper {
   width: 320px;
@@ -458,6 +477,12 @@ body {
   @media (min-width: 1040px) {
     .search__wrapper {
       width: 1040px; } }
+
+@media (min-width: 1040px) {
+  .search .big {
+    display: block; }
+  .search .small {
+    display: none; } }
 
 .about-us {
   background-color: #efefef;

@@ -14,8 +14,22 @@
      //padding-top: 15px;
      text-align: center;
    }
+  .big {
+    display: none;
+  }
 }
 
 .search__wrapper {
   @include container;
+}
+
+@media #{$desktop-widths} {
+  .search  {
+    .big {
+      display: block;
+    }
+    .small {
+      display: none;
+    }
+  }
 }

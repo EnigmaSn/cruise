@@ -17,4 +17,18 @@
     @include button-orange;
     margin: 0 auto;
   }
+  .big {
+    display: none;
+  }
+}
+
+@media #{$desktop-widths} {
+  .hot  {
+    .big {
+      display: block;
+    }
+    .small {
+      display: none;
+    }
+  }
 }

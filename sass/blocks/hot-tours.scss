@@ -1,0 +1,16 @@
+.hot-tours {
+  .big {
+    display: none;
+  }
+}
+
+@media #{$desktop-widths} {
+  .hot-tours  {
+    .big {
+      display: block;
+    }
+    .small {
+      display: none;
+    }
+  }
+}
